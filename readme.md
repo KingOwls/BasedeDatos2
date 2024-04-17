@@ -7,11 +7,17 @@ Introduccion y funcionamiento de los requerimientos planteados, teniendo en cuen
 se debe especificar como funciona la base de datos y la relacion con cada uno de los empleados con su departamento, de la misma forma teniendo en cuenta la base de datos que hay en este funcionamiento.
 
 `INSERT INTO departamento VALUES (1, 'Desarrollo', 120000, 6000);
+
 INSERT INTO departamento VALUES (2, 'Sistemas', 150000, 21000);
+
 INSERT INTO departamento VALUES (3, 'Recursos Humanos', 280000, 25000);
+
 INSERT INTO departamento VALUES (4, 'Contabilidad', 110000, 3000);
+
 INSERT INTO departamento VALUES (5, 'I+D', 375000, 380000);
+
 INSERT INTO departamento VALUES (6, 'Proyectos', 0, 0);
+
 INSERT INTO departamento VALUES (7, 'Publicidad', 0, 1000);`
 
 `INSERT INTO empleado VALUES (1, '32481596F', 'Aarón', 'Rivero', 'Gómez', 1);
@@ -133,13 +139,13 @@ que tiene asignada. Sin hacer uso de MIN, ORDER BY ni LIMIT.
 6. Devuelve los nombres de los departamentos que tienen empleados
 asociados. (Utilizando ALL o ANY).
 7. Devuelve los nombres de los departamentos que no tienen empleados
-  asociados. (Utilizando ALL o ANY).
+    asociados. (Utilizando ALL o ANY).
 
   ### Subconsultas con IN y NOT IN
 8. Devuelve los nombres de los departamentos que tienen empleados
 asociados. (Utilizando IN o NOT IN).
 9. Devuelve los nombres de los departamentos que no tienen empleados
-  asociados. (Utilizando IN o NOT IN).
+    asociados. (Utilizando IN o NOT IN).
 
   ### Subconsultas con EXISTS y NOT EXISTS
 10. Devuelve los nombres de los departamentos que tienen empleados
